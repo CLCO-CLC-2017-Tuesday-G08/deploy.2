@@ -7,7 +7,6 @@ import org.hibernate.criterion.Restrictions;
 import org.springframework.stereotype.Repository;
 
 import model.Newcontent;
-import model.UserDocument;;
 
 @Repository("newsDao")
 public class NewsDaoImpl extends AbstractDao<Integer, Newcontent> implements NewsDao {

@@ -23,11 +23,8 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import service.NewsService;
 import service.NewsServiceImpl;
-import service.IUserDocumentService;
 import model.FileBucket;
-import model.UserDocument;
 import util.FileValidator;
-import model.User;
 import model.Newcontent;
 import hello.StorageFileNotFoundException;
 import hello.StorageService;
